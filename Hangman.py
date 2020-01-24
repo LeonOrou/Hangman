@@ -9,7 +9,7 @@ def convert(unconverted_input):
     return string_user_word
 
 
-def letter_duplicates(word, letter):
+def letter_duplicates(word, letter):  # to enable to guess multiple letters with one guess
     start_at = -1
     duplicate_list = []
     while True:
